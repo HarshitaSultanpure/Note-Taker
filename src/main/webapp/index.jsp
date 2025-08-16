@@ -11,9 +11,19 @@
     
   </head>
   <body>
-    <div class="container">
+    <div class="container ">
     	<%@include file="navbar.jsp" %>
-    	<h1>This is home page</h1>
+    	<br/>
+    	
+    	<div class="card my-5">
+    		<img alt="" class="img-fluid mx-auto" style="max-width:400px"; src="img/note.png">
+    		<h1 class="text-primary text-uppercase mt-3 text-center"> start note writing </h1>
+    		
+    		<div class="container text-center">
+			  <a href="add_notes.jsp" class="btn" style="background-color: #9965f4; color: white;">Start Here</a>
+			</div>
+
+    	</div>
     </div>
 
   </body>
